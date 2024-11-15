@@ -1,0 +1,76 @@
+body {
+  font-family: poppines, sans-serif;
+  background-image: linear-gradient(to right, #F2F2E7, #F4F2E4) !important;
+}
+
+.card {
+  border: 1px green solid !important;
+  box-shadow: 4px 4px 20px 6px rgba(0, 0, 0, 0.253) !important;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 20px 2px rgba(104, 255, 104, 0.425) !important;
+}
+
+.card-footer {
+  border-top: 1px green solid !important;
+  background-color: rgba(227, 251, 227, 0.814) !important;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.8s ease-in-out;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+* {
+  font-family: "Exo 2", sans-serif;
+}
+
+.navigation {
+  font-family: "Playwrite CU", cursive;
+}
+
+.name {
+  font-family: "Kanit", sans-serif;
+}
+
+.dropdown-item:active {
+  background-color: green !important;
+}
+
+.navbar {
+  background-color: white !important;
+  box-shadow: 5px 2px 15px 4px rgba(104, 255, 104, 0.425);
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+  letter-spacing: 5px;
+}
+
+.form-control {
+  background-color: rgba(253, 251, 237, 0.81) !important;
+}
+
+.nav-link {
+  letter-spacing: 1.5px !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline dashed 0.2rem !important;
+}
+
+.active-link {
+  text-decoration: underline dashed 0.2rem !important;
+}
